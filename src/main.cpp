@@ -2,7 +2,7 @@
 
 #define BAUDRATE 9600
 
-#define COUNT_OF_ENCODER 2
+#define COUNT_OF_ENCODER 4
 
 #define COMMAND_FOR_RIGHT Serial.println("R")
 #define COMMAND_FOR_LEFT Serial.println("L")
@@ -18,7 +18,7 @@
 
 
 #define SENSITIVITY 8
-#define DELAY_TIME_IN_ms 500
+#define DELAY_TIME_IN_ms 250
 
 
 #include <Arduino.h>
